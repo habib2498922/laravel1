@@ -46,5 +46,9 @@ class StudentController extends Controller
         $studentById->delete();
         return redirect('/');
     }
+	
+	public function helloWorld() {
+		echo "Hello WOrld";
+	}
 
 }
